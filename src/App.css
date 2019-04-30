@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+header{
+  height: 7vh;
+  background: #282c34;
+}
+
+footer{
+  height: 5vh;
+  background: #282c34
+}
+
+main{  
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+
+.todo-components{
+  margin-right: 5px;
+}
+
+.todo-components:last-child{
+  margin: 0px;
+}
+
+.container{
+  height: min-content;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1f4d8f;
+}
+
+.header-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container > button:first-of-type{
+  margin-right: 10px;
+}
+
+
+.header-component{
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.header-component:last-child{
+  margin: 0;
+}
+
+.todo-header{
+  display: flex;
+}
+
+.todo-title-wrapper{
+  flex: 1;
+}
+
+.todo-item:last-child{
+  margin: 0;  
+}
+
+.todo-item:first-child{
+  margin-top: 10px;
+}
+
+.todo-main{
+  margin-top: 10px;
+}
+
+.todo-item{
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: space-around;
+  color: #00000086;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4x;
+  font-weight: 100;
+}
+
+.todo-footer{
+  margin-top: 10px;
+  padding: 0.3rem;
+  display: grid;
+  grid-template-columns: repeat(4,min-content);
+  justify-content: space-evenly;
+  background: pink;
+  grid-gap: 0.4rem;
+}
+
+.span-label{
+  background: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
